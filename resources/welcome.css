@@ -1,0 +1,33 @@
+/*******************************************************************************
+* Copyright (c) 2019 IBM Corporation and others.
+* All rights reserved. This program and the accompanying materials
+* are made available under the terms of the Eclipse Public License v2.0
+* which accompanies this distribution, and is available at
+* http://www.eclipse.org/legal/epl-v20.html
+*
+* Contributors:
+*     IBM Corporation - initial API and implementation
+*******************************************************************************/
+
+html, body {
+    font-family: var(--theia-ui-font-family);
+    background: var(--theia-layout-color0);
+    color: var(--theia-ui-font-color0);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-weight: 400;
+}
