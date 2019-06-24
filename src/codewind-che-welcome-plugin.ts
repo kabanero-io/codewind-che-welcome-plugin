@@ -38,8 +38,8 @@ function getWelcomeHTML(context: theia.PluginContext): string {
             <title>Welcome Page</title>
         </head>
         <body>
-            <div class="title"><!-- img class="logo" src="${logo}"/ -->ICAP</div>
-            <!-- div class="subtitle">Dive into a fast, incremental, intelligent, end-to-end development experience that puts developers in charge.</div -->
+            <div class="title"><img class="logo" src="${logo}"/>Kabanero</div>
+            <div class="subtitle"></div>
         </body>
         </html>`;
 }
