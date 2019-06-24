@@ -12,4 +12,4 @@ category: Other
 firstPublicationDate: "2019-02-20"
 spec:
   extensions:
-    - http://9.42.80.139/plugins/codewind-welcome-plugin/0.0.1/codewind_che_welcome_plugin.theia
+    - https://raw.githubusercontent.com/kabanero-io/codewind-che-welcome-plugin/master/codewind_che_welcome_plugin.theia
