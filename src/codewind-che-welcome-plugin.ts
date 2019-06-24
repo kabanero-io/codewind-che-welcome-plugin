@@ -25,7 +25,7 @@ function getWelcomeHTML(context: theia.PluginContext): string {
 
     const materialCSS = toUri(context, 'materialcolors.css');
     const welcomeCSS = toUri(context, 'welcome.css');
-    const logo = toUri(context, 'Kanbanero-logo.svg');
+    const logo = toUri(context, 'Kabanero-logo.svg');
 
     return `<!DOCTYPE html>
         <html lang="en">
