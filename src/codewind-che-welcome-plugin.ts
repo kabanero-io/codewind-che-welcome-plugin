@@ -48,7 +48,7 @@ function getWelcomeHTML(context: theia.PluginContext): string {
                 </tr>
             </table>
             <p>Tech Preview</p>
-            <p>For more information, visit <a href="https://kabanero.io/" target="_blank">https://kabanero.io/</a> and <a href="https://www.eclipse.org/codewind/" target="_blank">https://codewind.dev/</a></p>
+            <p>Kabanero is an open source project focused on bringing together foundational open source technologies into a modern microservices-based framework. For more information, visit <a href="https://kabanero.io/" target="_blank">https://kabanero.io/</a> and <a href="https://www.eclipse.org/codewind/" target="_blank">https://codewind.dev/</a></p>
         </body>
         </html>`;
 }
