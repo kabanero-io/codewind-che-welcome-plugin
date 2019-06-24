@@ -31,3 +31,19 @@ html, body {
     font-size: 32px;
     font-weight: 400;
 }
+
+a {
+    border: none;
+    color: var(--theia-accent-color1);
+    font-weight: 500;
+    outline: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 30px;
+}

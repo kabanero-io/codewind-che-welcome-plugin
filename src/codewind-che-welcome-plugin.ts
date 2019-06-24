@@ -38,8 +38,17 @@ function getWelcomeHTML(context: theia.PluginContext): string {
             <title>Welcome Page</title>
         </head>
         <body>
-            <div class="title"><img class="logo" src="${logo}"/>Kabanero</div>
-            <div class="subtitle"></div>
+            <table>
+                <tr>
+                    <td rowspan="2"><img class="logo" src="${logo}"/></td>
+                    <td class="title">Kabanero</td>
+                </tr>
+                <tr>
+                    <td class="subtitle">Create more, faster</td>
+                </tr>
+            </table>
+            <p>Tech Preview</p>
+            <p>For more information, visit <a href="https://kabanero.io/" target="_blank">https://kabanero.io/</a> and <a href="https://www.eclipse.org/codewind/" target="_blank">https://codewind.dev/</a></p>
         </body>
         </html>`;
 }
