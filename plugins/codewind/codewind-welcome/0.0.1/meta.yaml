@@ -1,13 +1,13 @@
-id: codewind-welcome-plugin
+id: codewind-welcome
 apiVersion: v2
 version: 0.0.1
 type: Theia plugin
-name: codewind-welcome-plugin
+name: codewind-welcome
 title: Codewind welcome plugin for Che Theia
 description: Codewind welcome plugin for Che Theia
 icon: https://raw.githubusercontent.com/IBM/charts/master/logo/microclimate-logo.png
 publisher: IBM
-repository: <repository>/plugins/codewind/codewind-welcome-plugin/0.0.1
+repository: https://github.com/kabanero-io/codewind-che-welcome-plugin
 category: Other
 firstPublicationDate: "2019-02-20"
 spec:

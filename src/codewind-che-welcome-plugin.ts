@@ -25,7 +25,7 @@ function getWelcomeHTML(context: theia.PluginContext): string {
 
     const materialCSS = toUri(context, 'materialcolors.css');
     const welcomeCSS = toUri(context, 'welcome.css');
-    const logo = toUri(context, 'Microclimate-logo.svg');
+    const logo = toUri(context, 'Kanbanero-logo.svg');
 
     return `<!DOCTYPE html>
         <html lang="en">
@@ -61,7 +61,7 @@ function createWelcomePage(context: theia.PluginContext): void {
     );
 
     panel.webview.html = getWelcomeHTML(context);
-    // panel.iconPath = theia.Uri.file(path.join(context.extensionPath, 'resources', 'favicon-11x11.png'));
+    panel.iconPath = toUri(context, 'Kabanero-favicon.svg');
 }
 
 export function start(context: theia.PluginContext) {
