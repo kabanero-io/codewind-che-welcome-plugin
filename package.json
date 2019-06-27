@@ -1,5 +1,5 @@
 {
-    "name": "codewind-che-welcome-plugin",
+    "name": "kabanero-che-welcome-plugin",
     "publisher": "theia",
     "keywords": [
         "theia-plugin"
@@ -28,6 +28,6 @@
         "theiaPlugin": "next"
     },
     "theiaPlugin": {
-        "backend": "lib/codewind-che-welcome-plugin.js"
+        "backend": "lib/kabanero-che-welcome-plugin.js"
     }
 }

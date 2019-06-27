@@ -1,0 +1,15 @@
+id: kabanero-welcome
+apiVersion: v2
+version: 0.0.1
+type: Theia plugin
+name: kabanero-welcome
+title: Kabanero welcome plugin for Che Theia
+description: Kabanero welcome plugin for Che Theia
+icon: https://raw.githubusercontent.com/kabanero-io/kabanero-che-welcome-plugin/master/resources/Kabanero-logo.svg
+publisher: IBM
+repository: https://github.com/kabanero-io/kabanero-che-welcome-plugin
+category: Other
+firstPublicationDate: "2019-02-20"
+spec:
+  extensions:
+    - https://raw.githubusercontent.com/kabanero-io/kabanero-che-welcome-plugin/master/kabanero_che_welcome_plugin.theia
