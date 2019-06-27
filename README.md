@@ -10,7 +10,7 @@ Shows a welcome page for Kabanero on Che.  The welcome page contains starter inf
 
 We welcome submitting issues and contributions.
 
-1. [Submitting bugs](https://github.com/eclipse/kabanero-io/issues)
+1. [Submitting bugs](https://github.com/kabanero-io/kabanero-che-welcome-plugin/issues)
 2. [Contributing](CONTRIBUTING.md)
 
 ## License
